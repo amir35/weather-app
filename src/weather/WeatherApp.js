@@ -14,7 +14,7 @@ function WeatherApp() {
 
     //const API_KEY = REACT_APP_API_KEY;
 
-    //const APIurl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=5bd6cf82d8b0b3ac4e196d7e3ce4c947&units=metric`;
+    //const APIurl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${REACT_APP_API_KEY}&units=metric`;
 
     const APIurl = `${REACT_APP_API_URL}?q=${cityName}&appid=${REACT_APP_API_KEY}&units=${TEMP_IN_CELSIUS}`;
     const ForecastURL = `${REACT_APP_FORECAST}?q=${cityName}&appid=${REACT_APP_API_KEY}&units=${TEMP_IN_CELSIUS}`;
